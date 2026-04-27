@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.rich {
+    background-image: url(images/img1.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    text-align: center;
+    color: White;
+    font-family:'Courier New', Courier, monospace;
+    text-decoration: none;
+    font-size: larger;
+    margin: 10px;
+    padding-top: 90px;
+    background-blend-mode: darken;
+    overflow: fixed;
+}
+.par{
+    background-color: rgba(124, 121, 121, 0.2);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    margin: 50px 80px 50px 80px;
+    border-radius: 20px;
+    word-spacing: 10px;
+    padding: 20px 180px 20px 180px;
+    line-height: 30px;
+    height: 600px;
+    overflow-y: scroll;
+}
+.btn{
+    display: block;
+    margin: auto;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: burlywood;
+}
+.btn:hover{
+       background-color: chocolate;
+}
